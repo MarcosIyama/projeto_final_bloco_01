@@ -2,14 +2,16 @@ package comercio.model;
 
 public abstract class Produto {
 
+	private int tipo;
 	private String nome;
 	private String cor;
 	private int numeracao;
 	private int identificacao;
 	private float valor;
 
-	public Produto(String nome, String cor, int numeracao, int identificacao, float valor) {
+	public Produto(int tipo, String nome, String cor, int numeracao, int identificacao, float valor) {
 		super();
+		this.tipo = tipo;
 		this.nome = nome;
 		this.cor = cor;
 		this.numeracao = numeracao;
@@ -17,6 +19,14 @@ public abstract class Produto {
 		this.valor = valor;
 		
 		
+	}
+
+	public int getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
 	}
 
 	public String getNome() {
