@@ -26,5 +26,4 @@ public class ProdutoCalcado extends Produto {
 			System.out.println("Sem cadarço.");
 		}
 	}
-	
 }

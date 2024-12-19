@@ -27,5 +27,4 @@ public class ProdutoCamiseta extends Produto {
 		default -> System.out.println("Estilo não identificado.");
 		}
 	}
-	
 }

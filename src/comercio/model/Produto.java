@@ -17,8 +17,7 @@ public abstract class Produto {
 		this.numeracao = numeracao;
 		this.identificacao = identificacao;
 		this.valor = valor;
-		
-		
+
 	}
 
 	public int getTipo() {
@@ -36,7 +35,7 @@ public abstract class Produto {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
+
 	public String getCor() {
 		return cor;
 	}
@@ -68,9 +67,9 @@ public abstract class Produto {
 	public void setValor(float valor) {
 		this.valor = valor;
 	}
-	
+
 	public void visualizar() {
-		
+
 		System.out.println("\n\n");
 		System.out.println("Dados do Produto:");
 		System.out.println("\nNome: " + this.nome);
